@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+
+}
+
+.nav-list{
+    width: 50%;
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.logo{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width:30%;
+    padding: 5px 10px;
+    
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.nav-list li{
+    width: 5%;
+    list-style: none;
+    align-items: center;
+    padding: 10px 30px;
+
+}
+
+.nav-list li a{
+
+    text-decoration: none;
+    color: white;
+
+}
+.nav-list li a:hover{
+    color: red;
+}
+
+.rightnav{
+    padding: 5px 50px;
+    width: 60%;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0,0,0,0.7) url('naruto.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+.box-main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    padding: 20%;
+}
+
+.firsthalf{
+     width: 80%;
+     color: white;
+     height: 80%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+}
+.secondhalf{
+    width: 50%;
+
+}
+.secondhalf img{
+    width: 200px;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+
+}
+
+.big-text{
+        font-size: 50px;
+}
+
+.small-text{
+    font-size: 20px;
+}
+
+.btn{
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 10%;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.btn:hover{
+    color: red;
+}
+.btn-sm{
+    font-size: 15px;
+    padding: 4px 8px;
+    border: 1px solid white;
+    border-radius: 10%;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.secright{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    height: 40%;
+}
+
+.imgfluid{
+    width: 70%;
+   
+}
+
+.thumbnail{
+    width: 450%;
+}
+
+.secleft{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    height: 40%;
+    flex-direction: row-reverse;
+}
+.photo{
+    width: 70%;
+    margin: none;
+}
+
+.paras{
+    width:1750%;
+}
+
+.foot{
+    text-align: center;
+    color: grey;
+    background-color: rgb(51, 40, 40);
+}
+
+.about{
+    text-align: center;
+}
+
+#tag{
+    width: 20%;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 9px;
+    margin-left: 39%;
+}
+.btn-dm{
+    font-size: 15px;
+    padding: 4px 8px;
+    border: 1px solid black;
+    border-radius: 10%;
+    background: none;
+    color: rgb(2, 2, 2);
+    cursor: pointer;
+}
